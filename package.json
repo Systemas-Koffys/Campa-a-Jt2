@@ -1,0 +1,43 @@
+{
+  "name": "campaign-district-6",
+  "version": "1.0.0",
+  "description": "Aplicación de gestión de campaña Distrito 6 - Tarija 2026",
+  "private": true,
+  "homepage": "https://tuusuario.github.io/campaign-district-6",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "lucide-react": "^0.294.0",
+    "html2pdf.js": "^0.10.1",
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "npm run build && gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0",
+    "tailwindcss": "^3.3.0"
+  }
+}

@@ -1,0 +1,46 @@
+# Dependencias
+node_modules/
+package-lock.json
+yarn.lock
+
+# Producción
+build/
+dist/
+.env.production
+
+# Desarrollo
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Variables de entorno
+.env
+
+# Cache
+.eslintcache
+
+# Archivos temporales
+tmp/
+temp/
+
+# Datos sensibles
+config.local.js
+secrets.json
